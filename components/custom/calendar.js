@@ -72,7 +72,7 @@ export function CalendarForm({ setSchedules }) {
                       {field.value ? (
                         format(field.value, "PPP")
                       ) : (
-                        <span>Elegi pa'</span>
+                        <span>Elegi pa!</span>
                       )}
                       <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
                     </Button>
